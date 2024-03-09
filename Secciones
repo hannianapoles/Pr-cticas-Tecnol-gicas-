@@ -1,1 +1,23 @@
-<head>
+<!Doctype html>
+<html>
+    <head>
+        <title> Mi web 2</title>
+    </head>
+    <body>
+        <section>
+            <h1> Hannia Nápoles </h1>
+        </section>
+        <section>
+            <div>Edad : 16</div>
+            <div>Teléfono : 5552101652 </div>
+            <div>Carrera : Informática</div>
+        </section>
+        <section>
+            <ul>
+                <li>ir de compras</li>
+                <li>Hacer ejercicio </li>
+                <li>Escuchar Musica</li>
+            </ul>
+        </section>
+    </body>
+</html>
