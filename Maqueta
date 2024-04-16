@@ -20,4 +20,41 @@
                     Proyectos
                 </a>
             </li>
-            <li>
+            <li>                contacto
+            </li>
+            </ul>
+        </div>
+    </section>
+    <!-- termina el menu de navegacion-->
+    <!-- inicia el texto de nosotros-->
+    <section id="nosotros">
+        <div id="parrafo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, blanditiis laudantium mollitia nihil 
+            </p>
+        </div>
+<div id="imagen"> 
+    <img src="img/img,jpg.png" alt="Animal">
+    <h1>imagen</h1>
+</div>
+    </section>
+    <!--termina texto nosotros-->
+    <!--inicia estilos css-->
+    <style>
+        #Menu{
+            background-color: blue;
+        }
+        #Nosotros{
+            background-color: aqua;
+        }
+        #Imagen{
+            background-color: aquamarine;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+          
+    </style>
+</body>
+</html>
+
+
