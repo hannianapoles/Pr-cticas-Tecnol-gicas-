@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--colocar el archivo css-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="caja">
+        <h1 class="texto">Registro</h1>
+<form action="">
+    <input type="text" name="nombre" id="nombre" class="cajatexto" placeholder="Nombre">
+    <input type="text" name="apellido" id="apellido" class="cajatexto" placeholder="Apellido">
+    <label for="fecha " class="cajatexto"> Fecha nacimiento </label> 
+    <input type="date" name="fecha" id="fecha" class="cajatexto">
+    <button onclick="recuperar ()" class="cajarecupera">Registrar</button>
+</form>
+    </div>
+    <script>
+        function recuperar (){
+            var nom = document.getElementById("nombre").value;
+            var apellido = document.getElementById("apellido").value;
+            var fecha = document.getElementById("fecha").value;
+            alert("Hola;" + nom + apellido + fecha);
+        }
+    </script>
+</body>
+</html>
+
+body{
+background-color: aqua;
+}
+.caja{
+    margin-top: 120 px;
+    width: 100%;
+    height: 400px;
+    align-content: center;
+    background-color: blue;
+    border-color: aliceblue ;
+    border: 2px solid;
+}
+.texto{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+    text-align: center;
+}
+.cajatexto{
+    width: 100%;
+    height: 30px;
+    padding: auto;
+    background-color: hotpink;
+    border: 1px solid #fff;    
+}
+.cajatexto{
+    width: 100%;
+    height: 30px;
+    padding: auto;
+    background-color: aliceblue ;
+    border: 1px solid #fff;    
+}
+.cajatexto{
+    width: 100%;
+    height: 30px;
+    padding: auto;
+    background-color: bisque;
+    border: 1px solid #fff;    
+}
+.cajatexto{
+    width: 100%;
+    height: 30px;
+    padding: auto;
+    background-color: aquamarine;
+    border: 1px solid #fff;    
+}
