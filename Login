@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/colores.css">
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="cap1">bienvenidos al login</h1>
+            <div class="formulario">
+                <form action="">
+                    <input type="text" placeholder="usuario" class="caja" id="usuario">
+                    <input type="password" placeholder="password" class="caja" id="pass">
+                    <button class="btn" onclick="validar();">ingresar</button>
+                </form>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
